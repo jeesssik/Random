@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Noticia+Text');
+
+body{
+font-family: 'Noticia Text', serif;
+background: url(http://wallpapercave.com/wp/pGT9cFr.jpg) fixed center;
+
+
+}
+
+
+
+#container{
+	position: center;
+	width: 80%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5px;
+
+}
+
+
+footer{
+	margin-top: 10px;
+	position: center;
+	width: 80%;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 5px;
+	color: #9b8f8f;
+	text-align: right;
+	font-size: 0.8em;
+
+}
+
+a{
+	text-decoration: none;
+	color: #9b8f8f;
+
+}
+
+header{
+	text-align: center;
+}
+
+#container img{
+
+	padding: 3px;
+	border:1px solid gray;
+	background-color: white;
+	max-width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.caption {
+padding: 0;
+width: 100%;
+position: relative;
+}
+.caption img {
+width: 80%;
+height: auto;
+display: block;
+padding: 10%;
+border: 10%;
+}
+.caption::before {
+content: attr(title);
+position: absolute;
+background: rgba(0, 0, 0, 0.6);
+color: white;
+font-weight: bold;
+font-size: 1em; 
+padding: 5px;
+right: 9%;
+bottom: 3px;
+left: 10%;
+text-align: center;
+z-index: 1;
+}
+
+
+section{
+	color:white;
+	font-weight: 200;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+article{
+
+	margin-top: 1em;
+	max-width: 100%;
+	background-color: rgba(215, 253, 231, 0.4);
+	border-radius: 10px;
+	padding:1.5em;
+	font-weight: 300;
+	margin-left: 1%;
+}
+
+h2{
+	font-weight: bold;
+	
+}
+
+.fact{
+	color: #4bb7e5;
+	font-weight: bold;
+	
+}
+
+
+
+
+
+
+
