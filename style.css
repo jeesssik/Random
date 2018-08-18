@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Noticia+Text');
 
 body{
-font-family: 'Noticia Text', serif;
-background: url(http://wallpapercave.com/wp/pGT9cFr.jpg) fixed center;
+	font-family: 'Noticia Text', serif;
+	background: url(http://wallpapercave.com/wp/pGT9cFr.jpg);
+ 	background-attachment: fixed;
+        background-position: center center;
+        background-size: cover; 
 
 
 }
